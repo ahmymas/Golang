@@ -1,0 +1,8 @@
+ Today I installed Golang to my ubuntu 20-04. It was not too hard in this time.
+ I found many used useful videos from YouTube about how to install it, and chose installing through terminal.
+ I copied link of the file which I wanted to download.
+ Then this command helped me to download it:  wget + link. After that I followed the instructions which have given in the video.
+ Eventually, I have an access it through terminal(If I want to use GO, simply I will input "GO" in my Terminal).                                                                                                                                                 
+ After all, I started learning syntax. I think it is easier than C++. However, there are some similarities among them. 
+ Packages, variables and functions are themes which I  learned in the first part of the "A tour of GO" from this website: https://tour.golang.org  .                                                                                                                                    
+ Tomorrow, I am planning to finish the learning of syntax.
