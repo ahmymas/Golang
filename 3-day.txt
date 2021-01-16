@@ -1,0 +1,5 @@
+ I thought that it would be easy to complete the learning syntax yesterday.
+ Unfortunately, it wasn't. I had a time to complete Flow control statements: for, if, else, switch and refer.
+ Today, I also completed learning of More types: structs, slices
+ Tomorrow, I am going to do some practice tasks (Fibonacci) and complete theme of maps. 
+ Tomorrow, I 'll learn methods and interfaces if I can.
