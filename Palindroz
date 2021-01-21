@@ -1,0 +1,22 @@
+package main
+
+import "fmt"
+
+func main() {
+
+fmt.Println("Input string in order to check Palindrome or not: ")
+
+	var n,num,digit int
+	rev:=0
+	fmt.Scanln(&num)
+	for num!=0 {
+		digit = num%10
+		rev=(rev*10)+digit
+		num=num/10
+	}
+	if n==rev{
+	fmt.Println("PALINDROME")
+	} else{
+	fmt.Println("NOT PALINDROME")
+	}
+  }
