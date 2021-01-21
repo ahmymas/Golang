@@ -5,14 +5,14 @@ import "fmt"
 func main() {
     for i := 1; i <= 100; i++ {
         if i%3 == 0 {
-          fmt.Printf("fizz")
+          fmt.Println("fizz")
         }
         if i%5 == 0 {
-          fmt.Printf("buzz")
+          fmt.Println("buzz")
         }
         if i%3 != 0 && i%5 != 0 {
-           fmt.Printf("%d", i)
+           fmt.Println("%d", i)
         }
-        fmt.Printf("\n")
+        fmt.Println("\n")
     }
 }
