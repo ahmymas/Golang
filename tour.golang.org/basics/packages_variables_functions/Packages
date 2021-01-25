@@ -1,5 +1,5 @@
-//GO dasturlash tilida yozilgan har bir programma paketlar (packages) bilan ishlaydi
-//Dastur main paketi bilan boshlanadi
+/*GO dasturlash tilida yozilgan har bir programma paketlar (packages) bilan ishlaydi
+Dastur main paketi bilan boshlanadi*/
 
 package main 
 
@@ -12,9 +12,9 @@ func main() {
 }
 
 
-//import qilish
-//quyidagi import so'zidan keyin kelgan qavs ichidagi so'zlar kodlar jamlanmasini sizga foydalanish uchun taqdim etadi
-//keling matematik formulalarni "math" so'zi bilan import qilib ko'ramiz
+/*import qilish
+quyidagi import so'zidan keyin kelgan qavs ichidagi so'zlar kodlar jamlanmasini sizga foydalanish uchun taqdim etadi
+keling matematik formulalarni "math" so'zi bilan import qilib ko'ramiz*/
 
 package main
 
@@ -32,8 +32,8 @@ func main() {
 }
 
 
-//Siz biror narsani export qilmoqchi bo'lsangiz o'sha so'zni bosh harf bilan boshlashingiz kerak
-//masalan Pi ni export qilib ko'ramiz. Pi taqriban 3.14 ga teng.
+/*Siz biror narsani export qilmoqchi bo'lsangiz o'sha so'zni bosh harf bilan boshlashingiz kerak
+masalan Pi ni export qilib ko'ramiz. Pi taqriban 3.14 ga teng.*/
 
 package main
 
@@ -47,8 +47,8 @@ func main() {
 }
 
 
-//Funksiya o'zida hech qanday argumentni jamlamasligi yoki bir nechta argumentlarni jamlashi mumkin
-//Ushbu misolda "qushish" o'ziga ikkita parametrni qabul qilib oladi
+/*Funksiya o'zida hech qanday argumentni jamlamasligi yoki bir nechta argumentlarni jamlashi mumkin
+Ushbu misolda "qushish" o'ziga ikkita parametrni qabul qilib oladi*/
 
 package main
 
@@ -63,8 +63,8 @@ func main() {
 }
 
 
-//Funksiyalar bir nechta natijalarni ham bir vaqtda qaytara oladi.
-//quyidagi funksiya berilgan so'zlarni joyini alishtirib beradi
+/*Funksiyalar bir nechta natijalarni ham bir vaqtda qaytara oladi.
+quyidagi funksiya berilgan so'zlarni joyini alishtirib beradi*/
 
 package main
 
@@ -77,10 +77,4 @@ func main() {
 	a, b := almashtir("salom", "o'rganuvchilarga")
 	fmt.Println(a, b)
 }
-
-
-
-
-
-
 
