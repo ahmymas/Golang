@@ -78,3 +78,57 @@ func main() {
 	fmt.Println(a, b)
 }
 
+
+
+/*"var" operatori o'zgaruvchilar ro'yhatini tanishtirishda ishlatiladi.
+Tur nomi ro'yhatdan keyin keladi.
+*/
+
+package main
+
+import "fmt"
+
+var c, uy, moshina bool
+
+func main() {
+	var i int
+	fmt.Println(i, c, uy, moshina)
+}
+
+
+/*Turlarni o'zgartirish
+*/
+
+package main
+
+import (
+	"fmt"
+	"math"
+)
+
+func main() {
+	var x, y int = 3, 4 //int - butun sonlar
+	var f float64 = math.Sqrt(float64(x*x + y*y))//int dan float64 turiga o'tdi
+	var z int = int(f)//float64 dan yana int ga o'tdi
+	fmt.Println(x, y, z)//bunda x, y int; z float64 dan yana int ga o'tdi
+}
+
+
+/*O'zgarmaslar (const)*/
+
+package main
+
+import "fmt"
+
+const Pi = 3.14 //bu yerda Pi o'zgarmas son bo'lib kelmoqda
+
+func main() {
+	const Dunyo = "Dunyo"
+	fmt.Println("Salom", Dunyo)
+	fmt.Println("Pi ning taqribiy qiymati", Pi, "ga teng")
+
+	const Tugri = true
+	fmt.Println("To'g'rimi?", Tugri)
+}
+
+
