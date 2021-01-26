@@ -1,5 +1,7 @@
 # Golang
 
+-[Roadmap for GO](roadmap.md)
+
 Tasks for syntax:
 - [Fibonacci](https://github.com/ahmymas/Golang/blob/main/fibonacci.go)
 - [FizzBuzz](https://github.com/ahmymas/Golang/blob/main/Fizzbuzz.go)
