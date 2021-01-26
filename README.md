@@ -8,4 +8,4 @@ Tasks for syntax:
 - [Has duplicate element](https://github.com/ahmymas/Golang/blob/main/DupElemArray)
 
 
--[Roadmap for GO](golang_roadmap.md)
+
