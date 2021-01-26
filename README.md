@@ -6,3 +6,6 @@ Tasks for syntax:
 - [Palindrome](https://github.com/ahmymas/Golang/blob/main/Palindrome)
 - [Odd even sum](https://github.com/ahmymas/Golang/blob/main/Oddevennum.go)
 - [Has duplicate element](https://github.com/ahmymas/Golang/blob/main/DupElemArray)
+
+
+-[Roadmap for GO](golang_roadmap.md)
