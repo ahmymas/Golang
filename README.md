@@ -9,5 +9,9 @@ Tasks for syntax:
 - [Odd even sum](https://github.com/ahmymas/Golang/blob/main/Oddevennum.go)
 - [Has duplicate element](https://github.com/ahmymas/Golang/blob/main/DupElemArray)
 
+Struct in Golang:
+-[Contact list](https://github.com/ahmymas/Golang/blob/main/structingolang/contactlist.go)
+-[Task list](https://github.com/ahmymas/Golang/blob/main/structingolang/tasklist.go)
+
 
 
