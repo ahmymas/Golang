@@ -1,22 +1,49 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"strconv"
+)
 
-type Nomer struct {
-	num int
+//asd
+type Contact struct {
+	num          int
+	firstName   string
+	lastName    string
 }
 
-type Shaxs struct{
-ism, familiya string
-Nomer
+func (c Contact) getFirstName() string {
+	return c.firstName
+}
+
+func (c Contact) getLastName() string {
+	return c.lastName
+}
+
+func (c Contact) getNum() int {
+	return c.num
+}
+
+func (c *Contact) setFirstName(firstname string) {
+	c.firstName = firstname
+}
+
+func (c *Contact) setLastName(lastname string) {
+	c.lastName = lastname
+}
+
+func (c *Contact) toString() string {
+	return c.getFirstName() + " " + c.getLastName() + " " + strconv.Itoa(c.getNum())
 }
 
 func main() {
-	i := Shaxs{
-		ism: "Alisher",
-		familiya: "Valisherov",
-		Nomer:   Nomer{998901234567},
-	}
 
-	fmt.Println("Alisher Valisherovning nomeri : ", i.num)
+var newContact Contact
+
+newContact.setLastName("Rakhmanov")
+newContact.setFirstName("Azizbek")
+newContact.num = +998997779977
+//fmt.Println(newContact)
+
+fmt.Println(newContact.toString())
 }
